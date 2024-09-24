@@ -1,0 +1,16 @@
+#include <stdio.h>
+#define LEN_INPUT 11
+
+int main(void) {
+    char s1[LEN_INPUT];
+    문자열s1 선언
+    int a;
+    정수a 선언
+    scanf("%s %d", s1, &a);
+    문자열과 정수를 입력
+    for(int i=1; i<=a;i++){
+        printf(s1);
+    }
+    문자열s1을 정수 a만큼 반복 그리고 출력
+    return 0;
+}
