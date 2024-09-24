@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+    int a;
+    정수 a
+    int b;
+    정수 b
+    scanf("%d %d", &a, &b);
+    a와 b 에 정수입력
+    printf("a = %d\n", a);
+    정수a 출력
+    printf("b = %d", b);
+    정수b출력
+    
+    return 0;
+}
