@@ -1,0 +1,13 @@
+#include <stdio.h>
+#define LEN_INPUT 1000001
+
+int main(void) {
+    char s1[LEN_INPUT]= {"HelloWorld!"};
+    str s1의 조건
+    scanf("%s", s1);
+    str입력
+    printf(s1);
+    str출력
+
+    return 0;
+}
