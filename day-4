@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void) {
+    int a;
+//정수 입력받음
+    scanf("%d", &a);
+//if문 조건식(a%2==0)%연산자로 나머지0일때 짝수로 연산
+    if(a%2==0){
+        printf("%d is even",a);
+    }
+// 홀수일때 출력
+    else{
+        printf("%d is odd");
+    }
+
+    return 0;
+}
