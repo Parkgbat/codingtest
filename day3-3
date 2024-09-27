@@ -1,0 +1,14 @@
+#include <stdio.h>
+#define LEN_INPUT 5
+
+int main(void) {
+    char s1[LEN_INPUT];
+    //입력받은 문자열을 scanf로 대기
+    scanf("%s", s1);
+    for(int i=0;i<=s1[i];i++){
+      //for문을 써서 문자열을 s1[i]만큼 돌림 그리고 %c로 출력하면서 \n로 세로로 정렬
+        printf("%c\n",s1[i]);
+    }
+
+    return 0;
+}
